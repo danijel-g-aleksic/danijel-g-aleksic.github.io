@@ -13,7 +13,11 @@ links:
 output:
   postcards::jolla
 ---
- 
+
 I am a mathematician and Teaching Assistant at the [University of Belgrade](https://www.bg.ac.rs/) ([FON](https://fon.bg.ac.rs/)). I earned my PhD from the  [Faculty of Mathematics](https://www.matf.bg.ac.rs/) in 2026, with a dissertation focused on $U$- and $V$- statistics for incomplete data.
 
 My research interests include the theoretical analysis of missing data problems, and the application of $U$- and $V$- statistics to incomplete datasets.
+
+Email: `danijel.aleksic@fon.bg.ac.rs`
+
+[[Google Scholar]](https://scholar.google.com/citations?user=OWO1VnoAAAAJ&hl=sr&oi=ao)  [[Instagram]](https://www.instagram.com/danijel.g.aleksic)
