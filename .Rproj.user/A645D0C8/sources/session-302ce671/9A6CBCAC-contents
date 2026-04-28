@@ -1,0 +1,19 @@
+---
+title: "Danijel G. Aleksić"
+image: "profile.jpg"
+links:
+  - label: Publications
+    url: "publications.html"
+  - label: Talks
+    url: "talks.rmd"
+  - label: Teaching
+    url: "teaching.rmd"
+  - label: Contact
+    url: "contact.rmd"
+output:
+  postcards::jolla
+---
+ 
+I am a mathematician and Teaching Assistant at the [University of Belgrade](https://www.bg.ac.rs/) ([FON](https://fon.bg.ac.rs/)). I earned my PhD from the  [Faculty of Mathematics](https://www.matf.bg.ac.rs/) in 2026, with a dissertation focused on $U$- and $V$- statistics for incomplete data.
+
+My research interests include the theoretical analysis of missing data problems, and the application of $U$- and $V$- statistics to incomplete datasets.
