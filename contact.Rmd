@@ -1,0 +1,33 @@
+---
+title: "Contact"
+output: html_document
+---
+
+*** 
+
+### Work address
+**University of Belgrade**  
+*Faculty of Organizational Sciences*  
+Jove Ilića 154  
+Post 11042, Belgrade  
+Serbia  
+
+***
+
+### Digital contact
+- **E-mail (Work):** `danijel.aleksic@fon.bg.ac.rs`
+
+***
+
+### Academic profiles
+
+[[Google Scholar]](https://scholar.google.com/citations?user=OWO1VnoAAAAJ&hl=sr&oi=ao) 
+[[ResearchGate]](https://www.researchgate.net/profile/Danijel-Aleksic)
+
+***
+
+### Social media
+
+[[Instagram]](https://www.instagram.com/danijel.g.aleksic)
+
+***

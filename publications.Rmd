@@ -5,8 +5,8 @@ output: html_document
 
 ## Theses
 
-1. **Aleksić, D.G.** (2026). U- and V- statistics for incomplete data and their application to model specification testing. *Doctoral dissertation*. *University of Belgrade, Faculty of Mathematics*. Supervisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/)
-2. **Aleksić, D.** (2022). The problem of missing data: Impact on statistical inference. *Master's thesis*, *University of Belgrade, Faculty of Mathematics*. Supervisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/) ***(in Serbian)***
+1. **Aleksić, D.G.** (2026). U- and V- statistics for incomplete data and their application to model specification testing. *Doctoral dissertation*. *University of Belgrade, Faculty of Mathematics*. Advisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/)
+2. **Aleksić, D.** (2022). The problem of missing data: Impact on statistical inference (Проблем недостајућих података: утицај на статистичко закључивање). *Master's thesis*, *University of Belgrade, Faculty of Mathematics*. Advisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/) ***(in Serbian)***
 
 ## Journal articles
 
@@ -25,5 +25,5 @@ output: html_document
 
 ## Conference papers
 
-1. **Aleksić, D.** (2021). Imputacija nedostajućih podataka u jednodimenzionim vremenskim serijama. *XLVIII međunarodni Simpozijum o operacionim istraživanjima, Banja Koviljača, 20--23. septembar 2021.* ***(in Serbian)***
+1. **Aleksić, D.** (2021). Imputation of missing data in univariate time series (Imputacija nedostajućih podataka u jednodimenzionim vremenskim serijama). *XLVIII nternational Symposium on Operational Research, Banja Koviljača, 20--23 September 2021* ***(in Serbian)***
 
