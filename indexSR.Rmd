@@ -1,0 +1,23 @@
+---
+title: "Данијел Г. Алексић"
+image: "profile.jpg"
+links:
+  - label: Публикације
+    url: "publications.html"
+  - label: Излагања
+    url: "talks.html"
+  - label: Настава (sr)
+    url: "nastava.html"
+  - label: Настава (en)
+    url: "teaching.html"
+  - label: Контакт
+    url: "kontakt.html"
+output:
+  postcards::jolla
+---
+
+Ја сам математичар и асистент на [Факултету организационих наука](https://fon.bg.ac.rs/) [Универзитета у Београду](https://www.bg.ac.rs/). На [Математичком факултету](https://www.matf.bg.ac.rs/) сам 2026. године одбранио своју [докторску дисертацију](http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5781/DanijelAleksicPhDThesis.pdf?sequence=1) у којој сам се бавио U- и V- статистикама за некомплетне податке.
+
+Моји истраживачки интереси укључују теоријско проучавање проблема недостајућих података, као и примену U- и V- статистика на некомплетне скупове података.
+
+[[Homepage in English] ](index.html) [ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)

@@ -1,0 +1,33 @@
+---
+title: "Контакт"
+output: html_document
+---
+
+*** 
+
+### Пословна адреса
+**Универзитет у Београду**  
+*Факултет организационих наука*  
+Јове Илића 154  
+11042 Београд--Вождовац\
+Србија  
+
+***
+
+### Електронски контакт
+**E-mail (пословни):** `danijel.aleksic@fon.bg.ac.rs`
+
+***
+
+### Академски профили
+
+[[Google Scholar]](https://scholar.google.com/citations?user=OWO1VnoAAAAJ&hl=sr&oi=ao) 
+[[ResearchGate]](https://www.researchgate.net/profile/Danijel-Aleksic)
+
+***
+
+### Друштвене мреже
+
+[[Instagram]](https://www.instagram.com/danijel.g.aleksic)
+
+***

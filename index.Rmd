@@ -6,18 +6,18 @@ links:
     url: "publications.html"
   - label: Talks
     url: "talks.html"
-  - label: Teaching
+  - label: Teaching (en)
     url: "teaching.html"
+  - label: Teaching (sr)
+    url: "nastava.html"
   - label: Contact
     url: "contact.html"
 output:
   postcards::jolla
 ---
 
-I am a mathematician and Teaching Assistant at the [University of Belgrade](https://www.bg.ac.rs/) ([FON](https://en.fon.bg.ac.rs/)). I earned my PhD from the  [Faculty of Mathematics](https://www.matf.bg.ac.rs/) in 2026, with a [dissertation](http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5781/DanijelAleksicPhDThesis.pdf?sequence=1) focused on U- and V- statistics for incomplete data.
+I am a mathematician and Teaching Assistant at the [University of Belgrade](https://www.bg.ac.rs/home/) ([FON](https://en.fon.bg.ac.rs/)). I earned my PhD from the  [Faculty of Mathematics](https://www.matf.bg.ac.rs/) in 2026, with a [dissertation](http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5781/DanijelAleksicPhDThesis.pdf?sequence=1) focused on U- and V- statistics for incomplete data. 
 
 My research interests include the theoretical analysis of missing data problems, and the application of U- and V- statistics to incomplete datasets.
 
-E-mail: `danijel.aleksic@fon.bg.ac.rs`
-
-[[Google Scholar]](https://scholar.google.com/citations?user=OWO1VnoAAAAJ&hl=sr&oi=ao)  [[Instagram]](https://www.instagram.com/danijel.g.aleksic)
+[[Почетна страна на српском] ](indexSR.html) [ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)
