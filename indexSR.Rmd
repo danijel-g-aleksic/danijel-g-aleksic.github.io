@@ -2,6 +2,8 @@
 title: "Данијел Г. Алексић"
 image: "profile.jpg"
 links:
+  - label: English
+    url: "index.html"
   - label: Публикације
     url: "publications.html"
   - label: Излагања
@@ -20,4 +22,4 @@ output:
 
 Моја истраживачка интересовања укључују теоријско проучавање проблема недостајућих података, као и примену U- и V- статистика на некомплетне скупове података.
 
-[[Homepage in English] ](index.html) [ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)
+**[ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)**

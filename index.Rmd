@@ -2,6 +2,8 @@
 title: "Danijel G. Aleksić"
 image: "profile.jpg"
 links:
+  - label: Српски
+    url: "indexSR.html"
   - label: Publications
     url: "publications.html"
   - label: Talks
@@ -20,4 +22,4 @@ I am a mathematician and Teaching Assistant at the [University of Belgrade](http
 
 My research interests include the theoretical analysis of missing data problems, and the application of U- and V- statistics to incomplete datasets.
 
-[[Почетна страна на српском] ](indexSR.html) [ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)
+**[ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)**
