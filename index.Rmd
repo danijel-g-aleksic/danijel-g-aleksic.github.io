@@ -3,17 +3,17 @@ title: "Danijel G. Aleksić"
 image: "profile.jpg"
 links:
   - label: Српски
-    url: "indexSR.html"
+    url: "sr/index.html"
   - label: Publications
-    url: "publications.html"
+    url: "en/publications.html"
   - label: Talks
-    url: "talks.html"
+    url: "en/talks.html"
   - label: Teaching (en)
-    url: "teaching.html"
+    url: "en/teaching.html"
   - label: Teaching (sr)
-    url: "nastava.html"
+    url: "sr/nastava.html"
   - label: Contact
-    url: "contact.html"
+    url: "en/contact.html"
 output:
   postcards::jolla
 ---

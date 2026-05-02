@@ -11,7 +11,7 @@ links:
   - label: Настава (sr)
     url: "nastava.html"
   - label: Настава (en)
-    url: "teaching.html"
+    url: "../en/teaching.html"
   - label: Контакт
     url: "kontakt.html"
 output:
