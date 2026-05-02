@@ -3,7 +3,7 @@ title: "Данијел Г. Алексић"
 image: "profile.jpg"
 links:
   - label: English
-    url: "index.html"
+    url: "../index.html"
   - label: Публикације
     url: "publications.html"
   - label: Излагања
