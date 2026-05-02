@@ -1,0 +1,60 @@
+---
+title: "Излагања"
+output: html_document
+---
+
+## Конференције -- саопштења по позиву
+
+1. **Aleksić, D.** (2025, July 21–25). *Testing goodness-of-fit, independence and MCAR on incomplete dataset utilising the properties of non-degenerate and weakly-degenerate U- and V- statistics.* 24th European Young Statisticians Meeting, Collegio Carlo Alberto, Torino, Italy. **[M32]**  
+<https://sites.google.com/view/eysmtorino2025/book-of-abstracts>, page 15.
+
+2. **Aleksić, D.** (2023, December 13–15). *A new approach to Little's MCAR test.* CMStatistics, HTW Berlin, University of Applied Sciences, Berlin, Germany. **[M32]**  
+<https://www.cmstatistics.org/CMStatistics2023/docs/BoA.pdf?20231128014621>, page 43.
+
+
+## Конференције -- остала саопштења
+
+1. **Aleksić, D.G.** (2025, December 12–13). *Flexible MCAR testing for missing data with correlated response indicators.* XV Symposium "Mathematics and Applications", University of Belgrade, Faculty of Mathematics, Belgrade, Serbia. **[M64]**  
+<https://simpozijum.matf.bg.ac.rs/s2025/AleksicDanijel.pdf>
+
+2. **Aleksić, D.**, Cuparić, M., & Milošević, B. (2025, October 2–5). *Asymptotic results for some U- and V-statistics for model specification testing under missing data.* 3rd Joint Mathematical Meeting of Serbia and Montenegro, Petrovac, Montenegro. **[M34]** (presenting author: Aleksić, D.)
+
+3. **Aleksić, D.**, & Milošević, B. (2025, August 28–31). *Homogeneity testing in the presence of missing data.* Workshop on Goodness-of-fit, Change-point and Related Problems, Faculty of Mathematics and Physics, Charles University, Prague, Czechia. **[M34]** (presenting author: Milošević, B.)  
+<https://gofcp.karlin.mff.cuni.cz/GOFCP_book_of_abstracts.pdf>, page 21.
+
+4. Milošević, B., & **Aleksić, D.** (2025, July 8–9). *Energy-distance-based two-sample testing in the presence of incomplete data.* HiTEc & Codes, Cyprus University of Technology, Limassol, Cyprus. **[M34]** (presenting author: Milošević, B.)  
+<https://www.cmstatistics.org/hiteccodes2025/fullprogramme.php>
+
+5. **Aleksić, D.**, & Milošević, B. (2024, June 25–29). *Addressing missing data challenges: A multivariate goodness-of-fit testing perspective.* 6th International Symposium on Nonparametric Statistics, Braga, Portugal. **[M34]** (presenting author: Milošević, B.)  
+<https://w3.math.uminho.pt/ISNPS2024/img/ISNPS%202024_PROGRAMME.pdf>, page 88.
+
+6. **Aleksić, D.**, & Milošević, B. (2024, June 19–22). *To impute or not to? A multivariate goodness-of-fit testing perspective.* 15th Serbian Mathematical Congress, University of Belgrade, Faculty of Mathematics, Belgrade, Serbia. **[M34]** (presenting author: Aleksić, D.)  
+<https://smak15.matf.bg.ac.rs/smak15/AleksicMilosevic15Smak.pdf>
+
+7. Cuparić, M., **Aleksić, D.**, & Milošević, B. (2024, March 23–24). *Testing independence in the presence of data missing completely at random.* The Spring HiTEc meeting and the Complex Data in Econometrics and Statistics Workshop, Cyprus University of Technology, Limassol, Cyprus. **[M34]** (presenting author: Cuparić, M.)  
+<https://www.cmstatistics.org/hiteccodes2024/fullprogramme.php>
+
+8. **Aleksić, D.** (2023, December 1–2). *U-statistics-based approach for testing the MCAR assumption.* XIII Symposium "Mathematics and Applications", University of Belgrade, Faculty of Mathematics, Belgrade, Serbia. **[M64]**  
+<http://simpozijum.math.rs/s2023/DanijelAleksicApstrakt.pdf>
+
+9. **Aleksić, D.**, Cuparić, M., & Milošević, B. (2023, September 29–30). *On the asymptotic properties of non-degenerate U-statistics in the presence of MCAR data.* Statistical Modeling with Applications, Casa Academiei Române, Bucharest, Romania. **[M34]** (presenting author: Aleksić, D.)  
+<https://statmod2023.sciencesconf.org/data/pages/BoA_StatMod2023_WithPoster_2.pdf>, page 3.
+
+10. **Aleksić, D.**, & Milošević, B. (2023, January 26–28). *Missing data: the impact on multivariate goodness-of-fit tests.* 2nd Joint Mathematical Meeting of Serbia and Montenegro, Mathematical Institute of the Serbian Academy of Sciences and Arts, Belgrade, Serbia. **[M64]** (presenting author: Aleksić, D.)  
+<https://konferencije.matf.bg.ac.rs/smscg2023/wp-content/uploads/2023/01/smscg2023-knjiga-apstrakta-1-1.pdf>, page 1.
+
+11. Milošević, B., & **Aleksić, D.** (2022, December 17–19). *Testing multivariate normality in the presence of missing data.* CMStatistics, King's College, London, United Kingdom. **[M34]** (presenting author: Milošević, B.)  
+<http://www.cmstatistics.org/CMStatistics2022/docs/BoACFECMStatistics2022.pdf>, page 117.
+
+12. **Алексић, Д.**, & Милошевић, Б. (2021, 2–3. децембар). *Утицај импутационих метода на тестове вишедимензионе нормалности.* XI Симпозијум ,,Математика и примене'', Универзитет у Београду, Математички факултет, Београд, Србија. **[M64]** (презентујући аутор: Алексић, Д.)  
+<https://alas.matf.bg.ac.rs/~konferencija/KNJIGA_APSTRAKATA_2021.pdf>, стр. 1.
+
+13. **Алексић, Д.** (2019, 6–7 децембар). *Однос дебљине новчића и вероватноће пада на ивицу.* X Симпозијум ,,Математика и примене'', Универзитет у Београду, Математички факултет, Београд, Србија. **[M64]**  
+<https://alas.matf.bg.ac.rs/~konferencija/KNJIGA_APSTRAKATA_2019.pdf>, page 37.
+
+
+## Семинари
+
+1. **Алексић, Д.** (15.04.2025). *Нови тест потпуно случајног недостајања и његова важност у контексту тестова сагласности са моделом.* Семинар Катедре за вероватноћу и статистику, Универзитет у Београду, Математички факултет, Београд, Србија.
+
+2. **Алексић, Д.** (28.03.2025). *Диференцијална приватност: изазов њеног очувања при некомлетном узорку.* Семинар Катедре за вероватноћу и статистику, Универзитет у Београду, Математички факултет, Београд, Србија.

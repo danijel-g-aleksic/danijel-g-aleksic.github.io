@@ -5,16 +5,23 @@ output: html_document
 
 ## Theses
 
-1. **Aleksić, D.G.** (2026). U- and V- statistics for incomplete data and their application to model specification testing. *Doctoral dissertation*. *University of Belgrade, Faculty of Mathematics*. Advisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/)
-2. **Aleksić, D.** (2022). The problem of missing data: Impact on statistical inference (Проблем недостајућих података: утицај на статистичко закључивање). *Master's thesis*, *University of Belgrade, Faculty of Mathematics*. Advisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/) ***(in Serbian)***
+1. **Aleksić, D.G.** (2026). U- and V- statistics for incomplete data and their application to model specification testing (Doctoral dissertation). *University of Belgrade, Faculty of Mathematics, Belgrade, Serbia.*  Advisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/)
+<http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5781/DanijelAleksicPhDThesis.pdf?sequence=1>
 
-## Journal articles
+2. **Aleksić, D.** (2022). The problem of missing data: Impact on statistical inference (Master's thesis) ***(in Serbian)***. *University of Belgrade, Faculty of Mathematics, Belgrade, Serbia.* Advisor: [Prof. Bojana Milošević, PhD](https://poincare.matf.bg.ac.rs/~bojana.milosevic/en/)
+<http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5465/DanijelAleksicMaster.pdf>
 
-1. **Aleksić, D.**, Milošević, B. (2025). To impute or not? Testing multivariate normality on incomplete dataset: revisiting the BHEP test. *Journal of Applied Statistics* 52(9), 1742--1759 <https://doi.org/10.1080/02664763.2024.2438798> 
 
-2. **Aleksić, D.** (2024). A novel test of missing completely at random: U-statistics-based approach. *Statistics* 58(4), p. 1004--1023 <https://doi.org/10.1080/02331888.2024.2386361> 
+## Journal Articles
 
-3. **Aleksić, D.**, Cuparić, M., Milošević, B. (2023). Non-degenerate *U*-statistics for data missing completely at random with application to testing independence. *Stat* 12(1), e634 <https://doi.org/10.1002/sta4.634>
+1. **Aleksić D.G.**, & Milošević, B. (2024). To impute or not? Testing multivariate normality on incomplete dataset: revisiting the BHEP test. *Journal of Applied Statistics* 52(9), 1742–1759.  
+<https://doi.org/10.1080/02664763.2024.2438798>
+
+2. **Aleksić, D.** (2024). A novel test of missing completely at random: U-statistics-based approach. *Statistics*, 58(4), p. 1004–1023.  
+<https://doi.org/10.1080/02331888.2024.2386361>
+
+3. **Aleksić D.**, Cuparić M., & Milošević, B. (2023). Non-degenerate *U*-statistics for data missing completely at random with application to testing independence. *Stat* 12(1), e634.  
+<https://doi.org/10.1002/sta4.634>
 
 
 ## Preprints
@@ -23,7 +30,8 @@ output: html_document
 2. **Aleksić, D.G.,** Milošević, B. (2025). Two-Sample Testing with Missing Data via Energy Distance: Weighting and Imputation Approaches. <https://arxiv.org/pdf/2508.11421>
 
 
-## Conference papers
+## Conference Proceedings
 
-1. **Aleksić, D.** (2021). Imputation of missing data in univariate time series (Imputacija nedostajućih podataka u jednodimenzionim vremenskim serijama). *XLVIII nternational Symposium on Operational Research, Banja Koviljača, 20--23 September 2021* ***(in Serbian)***
+1. **Aleksić, D.** (2021, September 20–23) Imputation of missing data in univariate time series. *XLVIII nternational Symposium on Operational Research, Banja Koviljača, Serbia.* ***(in Serbian)***  
+<http://symopis2021.matf.bg.ac.rs/download/Zbornik-SYM-OP-IS2021.pdf>, page 456.
 

@@ -5,9 +5,9 @@ links:
   - label: English
     url: "../index.html"
   - label: Публикације
-    url: "publications.html"
+    url: "publikacije.html"
   - label: Излагања
-    url: "talks.html"
+    url: "izlaganja.html"
   - label: Настава (sr)
     url: "nastava.html"
   - label: Настава (en)
@@ -22,4 +22,4 @@ output:
 
 Моја истраживачка интересовања укључују теоријско проучавање проблема недостајућих података, као и примену U- и V- статистика на некомплетне скупове података.
 
-**[ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)**
+**[ [CV-en] ](../DanijelAleksicCVen.pdf)  [ [CV-sr] ](../DanijelAleksicCVsr.pdf)**

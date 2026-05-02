@@ -1,0 +1,32 @@
+---
+title: "Публикације"
+output: html_document
+---
+
+## Тезе
+
+1. **Aleksić, D.G.** (2026). U- and V- statistics for incomplete data and their application to model specification testing (Doctoral dissertation) (U- и V- статистике за некомплетне податке и њихова примена у тестирању сагласности са моделом (докторска дисертација)). *University of Belgrade, Faculty of Mathematics, Belgrade, Serbia.*  
+<http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5781/DanijelAleksicPhDThesis.pdf?sequence=1>
+
+2. **Алексић, Д.** (2022). Проблем недостајућих података: утицај на статистичко закључивање (мастер рад). *Универзитет у Београду, Математички факултет, Београд, Србија.*  
+<http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5465/DanijelAleksicMaster.pdf>
+
+## Радови објављени у научним часописима са рецензијом
+
+1. **Aleksić D.G.**, & Milošević, B. (2024). To impute or not? Testing multivariate normality on incomplete dataset: revisiting the BHEP test. *Journal of Applied Statistics* 52(9), 1742–1759. **[M22]** IF2023=1.2 <https://doi.org/10.1080/02664763.2024.2438798>
+
+2. **Aleksić, D.** (2024). A novel test of missing completely at random: U-statistics-based approach. *Statistics*, 58(4), p. 1004–1023. **[M22]** IF2023=1.2 <https://doi.org/10.1080/02331888.2024.2386361>
+
+3. **Aleksić D.**, Cuparić M., & Milošević, B. (2023). Non-degenerate *U*-statistics for data missing completely at random with application to testing independence. *Stat* 12(1), e634. **[M21]** IF2021=2.451 <https://doi.org/10.1002/sta4.634>
+
+## Препринти
+
+1. **Aleksić, D.** (2025). A generalization of a U-statistics-based MCAR Test: Utilizing Partially Observed Variables. <https://arxiv.org/pdf/2501.05596>
+
+2. **Aleksić, D.G.,** Milošević, B. (2025). Two-Sample Testing with Missing Data via Energy Distance: Weighting and Imputation Approaches. <https://arxiv.org/pdf/2508.11421>
+
+
+## Радови објављени у зборницима са рецензијом
+
+
+1. **Aleksić, D.** (2021, 20–23. septembar) Imputacija nedostajućih podataka u jednodimenzionim vremenskim serijama. *XLVIII međunarodni Simpozijum o operacionim istraživanjima, Banja Koviljača, Srbija.* **[M33]** <http://symopis2021.matf.bg.ac.rs/download/Zbornik-SYM-OP-IS2021.pdf>, str. 456.
