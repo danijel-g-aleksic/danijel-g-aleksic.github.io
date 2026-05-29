@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Катедра за математику - Усмени испит</title>
+    <style>
+        :root {
+            --primary-blue: #0f4c81;
+            --dark-blue: #002d62;
+            --light-bg: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: #333;
+        }
+
+        /* Навигација / Хедер */
+        .header-bar {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 6px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+
+        /* Поставка апликације */
+        .setup-container {
+            max-width: 600px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--dark-blue);
+            border-bottom: 2px solid var(--primary-blue);
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        select, input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .checkbox-item input {
+            width: 16px;
+            height: 16px;
+        }
+
+        .btn {
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background-color: var(--dark-blue);
+        }
+
+        /* Екран за пројектор */
+        .exam-container {
+            max-width: 1400px;
+            margin: 5px auto;
+            padding: 0 15px;
+        }
+
+        .timer-controls-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            margin: 6px 0 12px 0;
+        }
+
+        /* Тајмер */
+        .timer-box {
+            background-color: var(--primary-blue);
+            color: white;
+            font-family: monospace;
+            font-size: 3.5rem;
+            font-weight: bold;
+            padding: 2px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            letter-spacing: 2px;
+            user-select: none;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .btn-gen {
+            max-width: 200px;
+            padding: 10px 15px;
+            font-size: 15px;
+            height: fit-content;
+        }
+
+        /* Сабијене испитне картице */
+        .ticket-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .ticket-row {
+            display: flex;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .ticket-number {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .ticket-content {
+            flex-grow: 1;
+            padding: 6px 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2px;
+        }
+
+        .question-line {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        /* Део за испитивача */
+        .examiner-column {
+            background-color: #f1f3f5;
+            border-left: 2px dashed var(--border-color);
+            width: 260px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.15rem;
+            color: var(--dark-blue);
+            text-align: center;
+            padding: 2px 10px;
+        }
+
+        .hidden-element {
+            display: none !important;
+        }
+
+        /* Колор кодови за индексе картица */
+        .color-0 { background-color: #d63384; }
+        .color-1 { background-color: #fd7e14; }
+        .color-2 { background-color: #20c997; }
+        .color-3 { background-color: #6f42c1; }
+        .color-4 { background-color: #e28743; }
+        .color-5 { background-color: #1f4e5b; }
+        .color-6 { background-color: #0f4c81; }
+    </style>
+</head>
+<body>
+
+    <div class="header-bar">
+        <div>ФОН | Катедра за математику</div>
+        <div id="header-subject">Усмени испит</div>
+    </div>
+
+    <div id="setup-view" class="setup-container">
+        <h2>Поставка усменог испита</h2>
+        <div class="form-group">
+            <label for="subject-select">Изаберите предмет:</label>
+            <select id="subject-select"></select>
+        </div>
+        <div class="form-group">
+            <label for="timer-duration">Трајање тајмера по кругу (у минутима):</label>
+            <input type="number" id="timer-duration" value="10" min="1" max="60">
+        </div>
+        <div class="form-group">
+            <label>Изаберите присутне испитиваче:</label>
+            <div class="checkbox-group" id="examiners-checkboxes"></div>
+        </div>
+        <button class="btn" onclick="confirmSetup()">Потврди</button>
+    </div>
+
+    <div id="exam-view" class="exam-container hidden-element">
+        <div class="timer-controls-wrapper">
+            <div class="timer-box" id="timer" onclick="toggleTimer()">
+                00:00
+            </div>
+            <button class="btn btn-gen" onclick="generateQuestions()">Генериши питања</button>
+        </div>
+
+        <div class="ticket-list" id="tickets-container"></div>
+    </div>
+
+    <script src="podaci.js"></script>
+
+    <script>
+        const listaIspitivaca = [
+            { id: "MS", име: "проф. др Милица Стојановић", кодови: ["ms", "мс"] },
+            { id: "OM", име: "проф. др Оливера Михић", кодови: ["om", "ом"] },
+            { id: "BS", име: "проф. др Богдана Станојевић", кодови: ["bs", "бс"] },
+            { id: "MB", име: "проф. др Марија Боричић Јоксимовић", кодови: ["mb", "мб"] },
+            { id: "NN", име: "проф. др Небојша Николић", кодови: ["nn", "нн"] },
+            { id: "DD", име: "доц. др Душан Џамић", кодови: ["dd", "дд"] }
+        ];
+
+        let aktivnaPitanjaDeo1 = [];
+        let aktivnaPitanjaDeo2 = [];
+        let aktivneZabranjeneKombinacije = [];
+        
+        let odabraniIspitivaci = [];
+        let tajneDodele = {}; 
+        
+        let timerInterval = null;
+        let podesenoVreme = 600; 
+        let preostaloVreme = 600; 
+        let fazaTajmera = 1; 
+        let ispitivaciPrikazani = false;
+
+        let keyBuffer = "";
+        let bufferTimeout = null;
+
+        window.onload = function() {
+            const subjectSelect = document.getElementById("subject-select");
+            subjectSelect.innerHTML = "";
+            Object.keys(bazaPredmeta).forEach(predmet => {
+                const opt = document.createElement("option");
+                opt.value = predmet;
+                opt.innerText = predmet;
+                subjectSelect.appendChild(opt);
+            });
+
+            const container = document.getElementById("examiners-checkboxes");
+            container.innerHTML = "";
+            listaIspitivaca.forEach(isp => {
+                const div = document.createElement("label");
+                div.className = "checkbox-item";
+                div.innerHTML = `<input type="checkbox" value="${isp.id}" checked> ${isp.име}`;
+                container.appendChild(div);
+            });
+            
+            window.addEventListener("keydown", handleSecretInput);
+        };
+
+        function confirmSetup() {
+            const checkboxes = document.querySelectorAll("#examiners-checkboxes input:checked");
+            odabraniIspitivaci = Array.from(checkboxes).map(cb => listaIspitivaca.find(i => i.id === cb.value));
+            
+            if (odabraniIspitivaci.length === 0) {
+                alert("Морате изабрати бар једног испитивача!");
+                return;
+            }
+
+            const uneseniMinuti = parseInt(document.getElementById("timer-duration").value) || 10;
+            podesenoVreme = uneseniMinuti * 60;
+            preostaloVreme = podesenoVreme;
+
+            const izabraniPredmet = document.getElementById("subject-select").value;
+            document.getElementById("header-subject").innerText = `Усмени испит - ${izabraniPredmet}`;
+            
+            aktivnaPitanjaDeo1 = bazaPredmeta[izabraniPredmet].pitanjaDeo1;
+            aktivnaPitanjaDeo2 = bazaPredmeta[izabraniPredmet].pitanjaDeo2;
+            aktivneZabranjeneKombinacije = bazaPredmeta[izabraniPredmet].zabranjeneKombinacije;
+
+            document.getElementById("setup-view").classList.add("hidden-element");
+            document.getElementById("exam-view").classList.remove("hidden-element");
+            
+            renderTimerHTML();
+            generateQuestions();
+        }
+
+        function generateQuestions() {
+            const container = document.getElementById("tickets-container");
+            container.innerHTML = "";
+            ispitivaciPrikazani = false;
+
+            for (let i = 0; i < odabraniIspitivaci.length; i++) {
+                let idx1, idx2;
+                let pokusaj = 0;
+                
+                do {
+                    idx1 = Math.floor(Math.random() * aktivnaPitanjaDeo1.length);
+                    idx2 = Math.floor(Math.random() * aktivnaPitanjaDeo2.length);
+                    pokusaj++;
+                } while (aktivneZabranjeneKombinacije.includes(`${idx1 + 1}-${idx2 + 1}`) && pokusaj < 150);
+
+                const row = document.createElement("div");
+                row.className = "ticket-row";
+                row.innerHTML = `
+                    <div class="ticket-number color-${i % 7}">${i + 1}</div>
+                    <div class="ticket-content">
+                        <div class="question-line">1. ${aktivnaPitanjaDeo1[idx1]}</div>
+                        <div class="question-line">2. ${aktivnaPitanjaDeo2[idx2]}</div>
+                    </div>
+                    <div class="examiner-column hidden-element" id="examiner-target-${i}"></div>
+                `;
+                container.appendChild(row);
+            }
+        }
+
+        function toggleTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            } else {
+                timerInterval = setInterval(updateTimer, 1000);
+            }
+        }
+
+        function updateTimer() {
+            if (preostaloVreme > 0) {
+                preostaloVreme--;
+                renderTimerHTML();
+            } else {
+                if (fazaTajmera === 1) {
+                    otkrijIspitivace();
+                    fazaTajmera = 2;
+                    preostaloVreme = podesenoVreme; 
+                    renderTimerHTML();
+                } else {
+                    clearInterval(timerInterval);
+                    timerInterval = null;
+                }
+            }
+        }
+
+        function renderTimerHTML() {
+            const mins = Math.floor(preostaloVreme / 60);
+            const secs = preostaloVreme % 60;
+            const mStr = mins.toString().padStart(2, '0');
+            const sStr = secs.toString().padStart(2, '0');
+            document.getElementById("timer").innerText = `${mStr}:${sStr}`;
+        }
+
+        function otkrijIspitivace() {
+            if (ispitivaciPrikazani) return;
+            
+            let preostaliBazen = [...odabraniIspitivaci];
+            
+            Object.values(tajneDodele).forEach(rucniIsp => {
+                preostaliBazen = preostaliBazen.filter(isp => isp.id !== rucniIsp.id);
+            });
+
+            for (let i = 0; i < odabraniIspitivaci.length; i++) {
+                const col = document.getElementById(`examiner-target-${i}`);
+                col.classList.remove("hidden-element");
+                
+                if (tajneDodele[i] !== undefined) {
+                    col.innerText = tajneDodele[i].име;
+                } else {
+                    if (preostaliBazen.length > 0) {
+                        const randomIdx = Math.floor(Math.random() * preostaliBazen.length);
+                        const izvuceni = preostaliBazen.splice(randomIdx, 1)[0];
+                        col.innerText = izvuceni.име;
+                    } else {
+                        col.innerText = odabraniIspitivaci[Math.floor(Math.random() * odabraniIspitivaci.length)].име;
+                    }
+                }
+            }
+            ispitivaciPrikazani = true;
+        }
+
+        function handleSecretInput(e) {
+            if (ispitivaciPrikazani || fazaTajmera !== 1) return;
+            if (!/[0-9a-zA-Zа-яА-ЯђЂјЈљЉњЊћЋџЏ]/.test(e.key)) return;
+
+            clearTimeout(bufferTimeout);
+            keyBuffer += e.key.toLowerCase();
+            bufferTimeout = setTimeout(() => { keyBuffer = ""; }, 2000);
+
+            if (keyBuffer.length === 3) {
+                const broj = keyBuffer[0];
+                const kod = keyBuffer.substring(1);
+                const grupaIndeks = parseInt(broj) - 1; 
+
+                if (grupaIndeks >= 0 && grupaIndeks < odabraniIspitivaci.length) {
+                    const pronadjeniIspitivac = odabraniIspitivaci.find(isp => isp.кодови.includes(kod));
+                    
+                    if (pronadjeniIspitivac) {
+                        for (let kljuc in tajneDodele) {
+                            if (tajneDodele[kljuc].id === pronadjeniIspitivac.id) {
+                                delete tajneDodele[kljuc];
+                            }
+                        }
+                        tajneDodele[grupaIndeks] = pronadjeniIspitivac;
+                    }
+                }
+                keyBuffer = ""; 
+            }
+        }
+    </script>
+</body>
+</html>
