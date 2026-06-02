@@ -70,7 +70,7 @@ output: html_document
 14. [Канали везе -- Задаци 1: Одређивање капацитета канала](https://www.youtube.com/watch?v=UrPxHPfgMIM&t=1395s)
 15. [Канали везе -- Задаци 2: Правила одлучивања](https://www.youtube.com/watch?v=EbPRuSbgrRs&t=659s)
 16. [Кодови који откривају грешке -- Теоријски увод и основни примери](https://www.youtube.com/watch?v=qg-7Mkkda2E&t=3359s)
-17- [Кодови који исправљају грешке -- Теоријски увод 1: Хамингов код, граница Гиљберт-Варшамова](https://www.youtube.com/watch?v=BnhmUuHsEWk&t=2041s)
+17. [Кодови који исправљају грешке -- Теоријски увод 1: Хамингов код, граница Гиљберт-Варшамова](https://www.youtube.com/watch?v=BnhmUuHsEWk&t=2041s)
 18. [Кодови који исправљају грешке -- Теоријски увод 2: Линеарни кодови 1](https://www.youtube.com/watch?v=ScvR0wN2D0w&t=1857s)
 19. [Кодови који исправљају грешке -- Теоријски увод 3: Линеарни кодови 2, Хамингови и Голеови кодови](https://www.youtube.com/watch?v=VHR1FN2BH6s&t=1448s)
 20. [Кодови који исправљају грешке -- Задаци 1: Линеарни кодови](https://www.youtube.com/watch?v=K-l7rhFiTRk&t=225s)
