@@ -18,7 +18,7 @@ output:
   postcards::jolla
 ---
 
-I am a mathematician and Teaching Assistant at the [University of Belgrade](https://www.bg.ac.rs/home/) ([FON](https://en.fon.bg.ac.rs/)). I earned my PhD from the  [Faculty of Mathematics](https://www.matf.bg.ac.rs/) in 2026, with a [dissertation](http://elibrary.matf.bg.ac.rs/bitstream/handle/123456789/5781/DanijelAleksicPhDThesis.pdf?sequence=1) focused on U- and V- statistics for incomplete data. 
+I am a mathematician and Teaching Assistant at the [University of Belgrade](https://www.bg.ac.rs/home/) ([FON](https://en.fon.bg.ac.rs/)). I earned my PhD from the  [Faculty of Mathematics](https://www.matf.bg.ac.rs/) in 2026, with a [dissertation](DanijelAleksicPhDThesis.pdf) focused on U- and V- statistics for incomplete data. 
 
 My research interests include the theoretical analysis of missing data problems, and the application of U- and V- statistics to incomplete datasets.
 
