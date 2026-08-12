@@ -50,6 +50,9 @@ output: html_document
 12. **Aleksić, D.**, & Milošević, B. (2021, December 2–3). *The impact of imputation methods on multivariate normality tests.* XI Symposium "Mathematics and Applications", University of Belgrade, Faculty of Mathematics, Belgrade, Serbia. (presenting author: Aleksić, D.) ***(in Serbian)***  
 <https://alas.matf.bg.ac.rs/~konferencija/KNJIGA_APSTRAKATA_2021.pdf>, page 1.
 
+1. **Aleksić, D.** (2021, September 20–23) Imputation of missing data in univariate time series. *XLVIII nternational Symposium on Operational Research, Banja Koviljača, Serbia.* ***(in Serbian)***  
+<http://symopis2021.matf.bg.ac.rs/download/Zbornik-SYM-OP-IS2021.pdf>, page 456.
+
 13. **Aleksić, D.** (2019, December 6–7). *Relationship between coin thickness and the probability of landing on its edge.* X Symposium "Mathematics and Applications", University of Belgrade, Faculty of Mathematics, Belgrade, Serbia. ***(in Serbian)***  
 <https://alas.matf.bg.ac.rs/~konferencija/KNJIGA_APSTRAKATA_2019.pdf>, page 37.
 

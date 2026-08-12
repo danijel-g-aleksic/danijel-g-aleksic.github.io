@@ -49,6 +49,8 @@ output: html_document
 12. **Алексић, Д.**, & Милошевић, Б. (2021, 2–3. децембар). *Утицај импутационих метода на тестове вишедимензионе нормалности.* XI Симпозијум ,,Математика и примене'', Универзитет у Београду, Математички факултет, Београд, Србија. **[M64]** (презентујући аутор: Алексић, Д.)  
 <https://alas.matf.bg.ac.rs/~konferencija/KNJIGA_APSTRAKATA_2021.pdf>, стр. 1.
 
+1. **Aleksić, D.** (2021, 20–23. septembar) Imputacija nedostajućih podataka u jednodimenzionim vremenskim serijama. *XLVIII međunarodni Simpozijum o operacionim istraživanjima, Banja Koviljača, Srbija.* **[M33]** <http://symopis2021.matf.bg.ac.rs/download/Zbornik-SYM-OP-IS2021.pdf>, str. 456.
+
 13. **Алексић, Д.** (2019, 6–7 децембар). *Однос дебљине новчића и вероватноће пада на ивицу.* X Симпозијум ,,Математика и примене'', Универзитет у Београду, Математички факултет, Београд, Србија. **[M64]**  
 <https://alas.matf.bg.ac.rs/~konferencija/KNJIGA_APSTRAKATA_2019.pdf>, page 37.
 

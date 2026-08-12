@@ -21,12 +21,13 @@ output: html_document
 
 ## Препринти
 
-1. **Aleksić, D.** (2025). A generalization of a U-statistics-based MCAR Test: Utilizing Partially Observed Variables. <https://arxiv.org/pdf/2501.05596>
+1. **Aleksić, D.G.,** Džamić, D., Milošević, B., & Obradović, M. (2026). Extending an Order-Statistic Characterization of the Exponential Distribution. <https://arxiv.org/pdf/2607.13302>
 
-2. **Aleksić, D.G.,** Milošević, B. (2025). Two-Sample Testing with Missing Data via Energy Distance: Weighting and Imputation Approaches. <https://arxiv.org/pdf/2508.11421>
+1. **Aleksić, D.** (2025). Testing MCAR via covariances: Extending the U-statistic framework to partially observed variables. <https://arxiv.org/pdf/2501.05596>
+
+2. **Aleksić, D.G.,** & Milošević, B. (2025). Two-Sample Testing with Missing Data via Energy Distance: Weighting and Imputation Approaches. <https://arxiv.org/pdf/2508.11421>
 
 
-## Радови објављени у зборницима са рецензијом
 
 
-1. **Aleksić, D.** (2021, 20–23. septembar) Imputacija nedostajućih podataka u jednodimenzionim vremenskim serijama. *XLVIII međunarodni Simpozijum o operacionim istraživanjima, Banja Koviljača, Srbija.* **[M33]** <http://symopis2021.matf.bg.ac.rs/download/Zbornik-SYM-OP-IS2021.pdf>, str. 456.
+
