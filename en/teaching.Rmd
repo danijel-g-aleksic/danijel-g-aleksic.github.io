@@ -3,4 +3,15 @@ title: "Teaching"
 output: html_document
 ---
 ***
-I haven't taught any courses in English yet :(
+
+
+
+## Mathematics 1 -- FON
+
+### Tutorials
+
+Below are the practice materials for Mathematics 1, translated into English, created during the 2025/26 academic year in collaboration with my colleague Dunja Prokić from the Department of Mathematics at the Faculty of Organizational Sciences (FON). Clicking on a title opens the link leading to the corresponding PDF document.
+
+
+
+[Tutorial 1: Algebraic structures](m1Tutorials/m1Tutorial01.pdf)
