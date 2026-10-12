@@ -1,25 +1,37 @@
 ---
-title: "Danijel G. Aleksić"
-image: "profile.jpg"
-links:
-  - label: Српски
-    url: "sr/index.html"
-  - label: Publications
-    url: "en/publications.html"
-  - label: Talks
-    url: "en/talks.html"
-  - label: Teaching (en)
-    url: "en/teaching.html"
-  - label: Teaching (sr)
-    url: "sr/nastava.html"
-  - label: Contact
-    url: "en/contact.html"
+pagetitle: "Danijel G. Aleksić — Mathematician and Teaching Assistant"
+lang: en
 output:
-  postcards::jolla
+  html_document:
+    theme: null
+    highlight: null
+    css: assets/site.css
+    includes:
+      in_header: assets/head-en.html
+      before_body: assets/nav-en.html
+      after_body: assets/footer.html
 ---
+
+<div class="hero">
+<img class="avatar" src="profile.jpg" alt="Portrait of Danijel G. Aleksić" width="168" height="168">
+<h1>Danijel G. Aleksić</h1>
+<p class="role">Mathematician · Teaching Assistant, University of Belgrade</p>
+<p class="btns"><a class="btn" href="DanijelAleksicCVen.pdf">CV (English)</a> <a class="btn" href="DanijelAleksicCVsr.pdf">CV (Српски)</a></p>
+</div>
 
 I am a mathematician and Teaching Assistant at the [University of Belgrade](https://www.bg.ac.rs/home/) ([FON](https://en.fon.bg.ac.rs/)). I earned my PhD from the  [Faculty of Mathematics](https://www.matf.bg.ac.rs/) in 2026, with a [dissertation](DanijelAleksicPhDThesis.pdf) focused on U- and V- statistics for incomplete data. 
 
+## Research interests
+
 My research interests include the theoretical analysis of missing data problems, and the application of U- and V- statistics to incomplete datasets.
 
-**[ [CV-en] ](DanijelAleksicCVen.pdf)  [ [CV-sr] ](DanijelAleksicCVsr.pdf)**
+## Selected publications
+
+1. **Aleksić, D.G.**, & Milošević, B. (2024). To impute or not? Testing multivariate normality on incomplete dataset: revisiting the BHEP test. *Journal of Applied Statistics* 52(9), 1742–1759.  
+<https://doi.org/10.1080/02664763.2024.2438798>
+
+1. **Aleksić, D.** (2024). A novel test of missing completely at random: U-statistics-based approach. *Statistics*, 58(4), pp. 1004–1023.  
+<https://doi.org/10.1080/02331888.2024.2386361>
+
+
+[All publications →](en/publications.html)

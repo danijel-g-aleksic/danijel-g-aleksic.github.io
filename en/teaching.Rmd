@@ -1,6 +1,16 @@
 ---
 title: "Teaching"
-output: html_document
+pagetitle: "Teaching | Danijel G. Aleksić"
+lang: en
+output:
+  html_document:
+    theme: null
+    highlight: null
+    css: ../assets/site.css
+    includes:
+      in_header: ../assets/head-en.html
+      before_body: ../assets/nav-en.html
+      after_body: ../assets/footer.html
 ---
 ***
 
@@ -17,3 +27,19 @@ Below are the practice materials for Mathematics 1, translated into English, cre
 [Tutorial 1: Algebraic Structures](m1Tutorials/m1Tutorial01.pdf)
 
 [Tutorial 2: Matrices and Determinants ](m1Tutorials/m1Tutorial02.pdf)
+
+***
+
+## Teaching experience
+
+I have taught exercise sessions at the following institutions:
+
+- **University of Belgrade, Faculty of Organizational Sciences:** Mathematics 1, Mathematics 2;
+- **University of Belgrade, Faculty of Mathematics:** Statistical Software 3, Information Theory, Introduction to Sampling Theory, Probability and Statistics B, Introduction to Financial Mathematics;
+- **Mathematical Grammar School, Belgrade:** Analysis with Algebra (4th grade).
+
+## Further materials (in Serbian)
+
+- [Statistical Software 3 -- lecture notes on statistical and machine learning](../sr/ss3.pdf)
+- [Introduction to Sampling Theory -- notes on sampling methods in `R`](../sr/UUTU.pdf)
+- [Information Theory -- complete video exercises](../sr/nastava.html)

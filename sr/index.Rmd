@@ -1,25 +1,35 @@
 ---
-title: "Данијел Г. Алексић"
-image: "profile.jpg"
-links:
-  - label: English
-    url: "../index.html"
-  - label: Публикације
-    url: "publikacije.html"
-  - label: Излагања
-    url: "izlaganja.html"
-  - label: Настава (sr)
-    url: "nastava.html"
-  - label: Настава (en)
-    url: "../en/teaching.html"
-  - label: Контакт
-    url: "kontakt.html"
+pagetitle: "Данијел Г. Алексић — математичар и асистент"
+lang: sr-Cyrl
 output:
-  postcards::jolla
+  html_document:
+    theme: null
+    highlight: null
+    css: ../assets/site.css
+    includes:
+      in_header: ../assets/head-sr.html
+      before_body: ../assets/nav-sr.html
+      after_body: ../assets/footer.html
 ---
 
-Ја сам математичар и асистент на [Факултету организационих наука](https://fon.bg.ac.rs/) [Универзитета у Београду](https://www.bg.ac.rs/). На [Математичком факултету](https://www.matf.bg.ac.rs/) сам 2026. године одбранио своју [докторску дисертацију](DanijelAleksicPhDThesis.pdf) у којој сам се бавио U- и V- статистикама за некомплетне податке.
+<div class="hero">
+<img class="avatar" src="../profile.jpg" alt="Портрет Данијела Г. Алексића" width="168" height="168">
+<h1>Данијел Г. Алексић</h1>
+<p class="role">Математичар · Асистент, Универзитет у Београду</p>
+<p class="btns"><a class="btn" href="../DanijelAleksicCVsr.pdf">CV (Српски)</a> <a class="btn" href="../DanijelAleksicCVen.pdf">CV (English)</a></p>
+</div>
+
+Ја сам математичар и асистент на [Факултету организационих наука](https://fon.bg.ac.rs/) [Универзитета у Београду](https://www.bg.ac.rs/). На [Математичком факултету](https://www.matf.bg.ac.rs/) сам 2026. године одбранио своју [докторску дисертацију](../DanijelAleksicPhDThesis.pdf) у којој сам се бавио U- и V- статистикама за некомплетне податке.
+
+## Истраживачка интересовања
 
 Моја истраживачка интересовања укључују теоријско проучавање проблема недостајућих података, као и примену U- и V- статистика на некомплетне скупове података.
 
-**[ [CV-en] ](../DanijelAleksicCVen.pdf)  [ [CV-sr] ](../DanijelAleksicCVsr.pdf)**
+## Одабране публикације
+
+1. **Aleksić, D.G.**, & Milošević, B. (2024). To impute or not? Testing multivariate normality on incomplete dataset: revisiting the BHEP test. *Journal of Applied Statistics* 52(9), 1742–1759. **[M22]** IF2023=1.2 <https://doi.org/10.1080/02664763.2024.2438798>
+
+1. **Aleksić, D.** (2024). A novel test of missing completely at random: U-statistics-based approach. *Statistics*, 58(4), pp. 1004–1023. **[M22]** IF2023=1.2 <https://doi.org/10.1080/02331888.2024.2386361>
+
+
+[Све публикације →](publikacije.html)

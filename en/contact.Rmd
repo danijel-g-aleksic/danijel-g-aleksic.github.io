@@ -1,8 +1,17 @@
 ---
 title: "Contact"
-output: html_document
+pagetitle: "Contact | Danijel G. Aleksić"
+lang: en
+output:
+  html_document:
+    theme: null
+    highlight: null
+    css: ../assets/site.css
+    includes:
+      in_header: ../assets/head-en.html
+      before_body: ../assets/nav-en.html
+      after_body: ../assets/footer.html
 ---
-
 *** 
 
 ### Work address

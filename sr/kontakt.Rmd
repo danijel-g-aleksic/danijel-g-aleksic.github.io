@@ -1,8 +1,17 @@
 ---
 title: "Контакт"
-output: html_document
+pagetitle: "Контакт | Данијел Г. Алексић"
+lang: sr-Cyrl
+output:
+  html_document:
+    theme: null
+    highlight: null
+    css: ../assets/site.css
+    includes:
+      in_header: ../assets/head-sr.html
+      before_body: ../assets/nav-sr.html
+      after_body: ../assets/footer.html
 ---
-
 *** 
 
 ### Пословна адреса
